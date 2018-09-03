@@ -26,9 +26,7 @@ gradle bootRun
 How we see in screenshot, we application don't start. Why?
 When we using the JPA, we need datasource configurations to start application.
 Most configurations about spring is configurated in `application.properties` file in `src/main/resources` directory.
-
 Open this file and add the follow lines.
-
 
 ```Java
 spring.datasource.url = jdbc:mysql://localhost/mysql
